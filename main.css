@@ -46,6 +46,9 @@ a {
     color: white;
     height: 100%;
 }
+.bajado {
+    background-color: rgba(0, 0, 0, 0.4);
+}
 #menu{
     display: flex;
     flex-direction: row;
@@ -103,7 +106,7 @@ a {
     align-content: space-around;
     box-sizing: border-box;
 }
-#precio{
+#precios{
     display: flex;
     align-items: center;
     text-align: center;
@@ -116,7 +119,7 @@ a {
     height: 65px;
     margin-left: 300px;
 }
-#ofertas{
+#oferta{
     background-color: black;
     color: white;
     position: absolute;
@@ -171,4 +174,92 @@ a {
     text-align: center;
     cursor: pointer;
     border: 0;
+}
+#donde_estamos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#mapa{
+    width: 50vw;
+    height: 100vh;
+    margin-left: 159px;
+}
+.imagen_izquierda{
+    box-sizing: border-box;
+    padding-top: 150px;
+    width: 100%;
+}
+#formulario{
+    box-sizing: border-box;
+    font-size: large;
+    width: 50vw;
+    height: 100vh;
+    padding-top: 150px;
+    padding-left: 40px;
+}
+#boton_enviar{
+    background-color: yellow;
+    cursor: pointer;
+    color: black;
+    border: 0;
+    font-size: x-large;
+    width: 250px;
+    height: 60px;
+}
+.inputs{
+    width: 250px;
+    height: 30px;
+    border-width: 1px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    border-color: darkgrey;
+}
+.message{
+    width: 527px;
+    height: 150px;
+    border-width: 1px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    border-color: darkgrey;
+}
+input {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: midnightblue;
+    color: white;
+    align-items: center;
+}
+#contenido_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 98.5vw;
+}
+#pie_pagina{
+    text-align: center;
+    width: 98.5vw;
+}
+#pie{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#boton_suscribir{
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+    border: 0;
+    width: 240px;
+    height: 74px;
+}
+hr {
+    border-color: black;
+    width: 100%;
 }
